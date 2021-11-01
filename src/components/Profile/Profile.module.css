@@ -1,0 +1,73 @@
+.container { 
+    padding: 8rem 4rem 4rem 4rem;
+    position: relative; 
+    height: 100vh;
+    width: 100%;
+    background-color: #011627;
+}
+    
+.container::before {  
+    content: "";
+    background-image: url("../../images/bg-img.jpg");
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.9;
+}
+
+.content {
+    position: relative;
+    color: #ffffff;  
+    text-align: left;
+}  
+
+.heading {
+    color: #06609c;
+    margin: 0;
+    padding: 1rem 0;
+}
+
+.myName {
+    color: #E9E8E8;
+    margin: 0;
+    padding: 0 0 1rem 0;
+}
+
+.type {
+    color: #06609c;
+    font-size: 2.4rem;
+    margin: 1rem 0;
+    height: 7rem;
+    padding: 0 0 0.5rem 0;
+}
+
+.resumeLink {
+    text-decoration: none;
+}
+
+.btn {
+    background-color: #06609c !important;
+    color: #E9E8E8 !important;
+}
+
+.btn:hover {
+    background-color: #2980B9 !important;
+}
+
+@media (max-width: 480px) {
+    .type {
+        font-size: 1.6rem;
+    }
+    .container {
+        padding: 4rem 2rem;
+    }
+}
+
+@media (max-width: 840px) {
+    .content {
+        text-align: center;
+    }
+}

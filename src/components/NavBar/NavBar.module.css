@@ -1,0 +1,14 @@
+.nav {
+    background-color: #011627 !important;
+    background-color: rgb(27, 26, 26) !important;
+}
+
+.navlink {
+    margin: 0rem 1rem;
+    color: #06609c !important;
+    font-weight: 500;
+}
+
+.navlink:hover {
+    color: #2980B9 !important;
+}
