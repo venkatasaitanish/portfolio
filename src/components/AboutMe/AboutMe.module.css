@@ -18,7 +18,7 @@
 }
 
 .info {
-    margin: 4rem 1rem 2rem;
+    margin: 3.5rem 1rem 2rem;
     line-height: 2rem;
     font-size: 20px;
     color: #212121;
@@ -47,5 +47,12 @@
 @media (max-width: 600px) {
     .photograph {
         width: 14rem;
+    }
+}
+
+@media (min-width:1279px) and (max-width:1280px) {
+    .info {
+        margin: 3.5rem 1rem 2rem;
+        text-align: left;
     }
 }
