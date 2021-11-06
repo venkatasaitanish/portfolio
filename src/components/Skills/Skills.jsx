@@ -18,7 +18,7 @@ function Skills() {
     return (
         <div id="skills" className={styles.container}>
             <h1 className={styles.heading}>SKILLS</h1>
-            <Grid container spacing={8} justifyContent="center">
+            <Grid container spacing={6} justifyContent="center">
                 <Grid item xs={6} sm={4} md={3} className={styles.grid} data-aos="flip-up">
                     <Tilt className={styles.skillBox}>
                         <div>
