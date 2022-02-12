@@ -16,7 +16,7 @@ function AboutMe() {
                     Hi! Myself Jonnadula Venkata Sai Tanish from Nellore, India. <br/>
                     I am a Computer Science Undergradute at National Institute of Technology Raipur. <br/>
                     I am an enthusiastic person with zeal to learn, explore and grow.
-                    As of now, I am a Front-end web developer and currently exporing Backend web technologies. <br/>
+                    As of now, I am a Front-end web developer and currently exploring Backend web technologies. <br/>
                     I also do competitive programming on different platforms like <a className={styles.link} href="https://www.codechef.com/users/jvs_tanish" rel="noreferrer" target="_blank">Codechef: jvs_tanish</a>, <a className={styles.link} href="https://codeforces.com/profile/venkatasaitanish" rel="noreferrer" target="_blank">Codeforces: venkatasaitanish</a> and <a className={styles.link} href="https://leetcode.com/venkatasaitanish" rel="noreferrer" target="_blank">Leetcode: venkatasaitanish</a>. <br/>  
                     Apart from this, I love travelling a lot.
                 </Grid>

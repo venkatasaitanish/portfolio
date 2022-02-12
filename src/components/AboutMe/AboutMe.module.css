@@ -48,6 +48,9 @@
     .photograph {
         width: 14rem;
     }
+    .container {
+        padding: 4rem 3rem;
+    }
 }
 
 @media (min-width:1279px) and (max-width:1280px) {

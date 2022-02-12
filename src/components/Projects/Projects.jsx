@@ -21,7 +21,7 @@ function Projects() {
                             <Card className={styles.card} data-aos="zoom-out">
                                 <CardContent>
                                     <Typography className={styles.title} variant="h5" gutterBottom>{project.title}</Typography>
-                                    <Typography variant="body1" gutterBottom>{project.used}</Typography>
+                                    <Typography className={styles.subtitle} variant="body1" gutterBottom>{project.used}</Typography>
                                     <Typography variant="body1" gutterBottom className={styles.description}>{project.description}</Typography>
                                     <div className={styles.iconSet}>
                                         <a className={styles.icon} rel="noreferrer" href={project.webUrl} target="_blank" ><i className="fas fa-globe fa-2x"></i> </a>

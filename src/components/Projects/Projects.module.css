@@ -52,3 +52,13 @@
 .card .description {
     padding: 0 0 3rem 0;
 }
+
+.card .subtitle {
+    color: #d5d7db;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 4rem 3rem;
+    }
+}
