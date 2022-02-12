@@ -19,7 +19,7 @@ function Profile() {
                         delaySpeed = {1000}
                     />
                 </div>
-                <a className={styles.resumeLink} href="https://drive.google.com/file/d/1BzeX0MFAaowwoJGV6lObHDl3gdeNJNgh/view?usp=sharing" title="Resume" rel="noreferrer" target="_blank">
+                <a className={styles.resumeLink} href="https://drive.google.com/file/d/1LAlslOwmQoJVR1Aq05RCd19beXEpN6q6/view?usp=sharing" title="Resume" rel="noreferrer" target="_blank">
                     <Button className={styles.btn} variant="contained">
                         VIEW RESUME
                     </Button>
